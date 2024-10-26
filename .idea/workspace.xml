@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/remote/count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/remote/CountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/remote/count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/remote/count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/remote/CountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/remote/CountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,8 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CountTest.executor": "Run",
+    "TestNG.CountTest.tc1.executor": "Run",
     "git-widget-placeholder": "day3",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/manishrastogi/Documents/FsJava/src/main/java/org/example/Main.java",

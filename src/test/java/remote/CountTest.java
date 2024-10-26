@@ -18,4 +18,16 @@ public class CountTest {
     int interval = endTime - startTime;
     System.out.println(interval);
 }
+
+@Test
+public void tc2()
+{
+    int startTime =  LocalDateTime.now().getNano();
+    System.out.println("StartTime = "+ startTime);
+    System.out.println(c.allCount(1000));
+    int endTime = LocalDateTime.now().getNano();
+    System.out.println("EndTime ="+ endTime);
+    int interval = endTime - startTime;
+    System.out.println(interval);
+}
 }
