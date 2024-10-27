@@ -4,7 +4,7 @@ public class Recurssion {
 
     public void printcount(int n)
     {
-        if(n==0)
+        if(n<0)
         {
             return;
         }
