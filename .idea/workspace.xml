@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="">
+    <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Manish Rastogi &lt;manishrastogi@mvyvpxjfxq.local&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
@@ -37,7 +42,8 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.AddTest.test1.executor": "Run",
-    "git-widget-placeholder": "Merging main",
+    "TestNG.RecurssionTest.executor": "Run",
+    "git-widget-placeholder": "reccursion",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/manishrastogi/Documents/FsJava/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
@@ -45,7 +51,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AddTest.test1">
+  <component name="RunManager" selected="TestNG.RecurssionTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="FsJava" />
@@ -77,8 +83,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecurssionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="remote" />
+      <option name="MAIN_CLASS_NAME" value="remote.RecurssionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RecurssionTest" />
         <item itemvalue="TestNG.AddTest.test1" />
         <item itemvalue="Application.Main" />
       </list>
@@ -93,6 +117,15 @@
       <option name="presentableId" value="Default" />
       <updated>1729957896861</updated>
     </task>
+    <task id="LOCAL-00001" summary="idea">
+      <option name="closed" value="true" />
+      <created>1729975323193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729975323193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,5 +138,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea" />
   </component>
 </project>
