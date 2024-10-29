@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="idea" />
+    <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="idea">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,8 +50,12 @@
     "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.AddTest.test1.executor": "Run",
+    "TestNG.FactorialTest.executor": "Run",
+    "TestNG.FactorialTest.factTest.executor": "Run",
     "TestNG.RecurssionTest.executor": "Run",
-    "git-widget-placeholder": "reccursion",
+    "TestNG.SumOfArrayTest.executor": "Run",
+    "TestNG.SumOfArrayTest.test.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/manishrastogi/Documents/FsJava/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
@@ -57,7 +63,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="TestNG.SumOfArrayTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="FsJava" />
@@ -71,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +86,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="remote" />
-      <option name="MAIN_CLASS_NAME" value="remote.AddTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="remote.FactorialTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTest.factTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="remote" />
+      <option name="MAIN_CLASS_NAME" value="remote.FactorialTest" />
+      <option name="METHOD_NAME" value="factTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecurssionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SumOfArrayTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +121,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="remote" />
-      <option name="MAIN_CLASS_NAME" value="remote.RecurssionTest" />
+      <option name="MAIN_CLASS_NAME" value="remote.SumOfArrayTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfArrayTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="remote" />
+      <option name="MAIN_CLASS_NAME" value="remote.SumOfArrayTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -108,9 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SumOfArrayTest" />
+        <item itemvalue="TestNG.SumOfArrayTest.test" />
+        <item itemvalue="TestNG.FactorialTest" />
+        <item itemvalue="TestNG.FactorialTest.factTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.RecurssionTest" />
-        <item itemvalue="TestNG.AddTest.test1" />
       </list>
     </recent_temporary>
   </component>
