@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="idea">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +47,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DRotate.executor": "Run",
+    "Application.Duplicate.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.Smallest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,7 +61,7 @@
     "TestNG.SumOfArrayTest.test.executor": "Run",
     "TestNG.smallarge.Test2.executor": "Run",
     "TestNG.smallarge.executor": "Run",
-    "git-widget-placeholder": "factorial",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/manishrastogi/Documents/FsJava/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
@@ -68,7 +69,33 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.smallarge">
+  <component name="RunManager" selected="Application.DRotate">
+    <configuration name="DRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.DRotate" />
+      <module name="FsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.Duplicate" />
+      <module name="FsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Smallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="remote.Smallest" />
       <module name="FsJava" />
@@ -78,41 +105,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecurssionTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FsJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="remote.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="remote" />
-      <option name="MAIN_CLASS_NAME" value="remote.RecurssionTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfArrayTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FsJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="remote.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="remote" />
-      <option name="MAIN_CLASS_NAME" value="remote.SumOfArrayTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DRotate" />
+        <item itemvalue="Application.Duplicate" />
         <item itemvalue="TestNG.smallarge" />
         <item itemvalue="TestNG.smallarge.Test2" />
         <item itemvalue="Application.Smallest" />
-        <item itemvalue="TestNG.SumOfArrayTest.test" />
-        <item itemvalue="TestNG.RecurssionTest" />
       </list>
     </recent_temporary>
   </component>
