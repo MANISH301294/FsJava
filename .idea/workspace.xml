@@ -50,18 +50,21 @@
     "Application.DRotate.executor": "Run",
     "Application.Duplicate.executor": "Run",
     "Application.Main.executor": "Debug",
+    "Application.Merge.executor": "Run",
     "Application.Smallest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AddTest.test1.executor": "Run",
     "TestNG.FactorialTest.executor": "Run",
     "TestNG.FactorialTest.factTest.executor": "Run",
+    "TestNG.MoveZeroTest.Test1.executor": "Run",
+    "TestNG.MoveZeroTest.executor": "Run",
     "TestNG.RecurssionTest.executor": "Run",
     "TestNG.SumOfArrayTest.executor": "Run",
     "TestNG.SumOfArrayTest.test.executor": "Run",
     "TestNG.smallarge.Test2.executor": "Run",
     "TestNG.smallarge.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "DSA",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/manishrastogi/Documents/FsJava/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
@@ -69,7 +72,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DRotate">
+  <component name="RunManager" selected="Application.Merge">
     <configuration name="DRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="remote.DRotate" />
       <module name="FsJava" />
@@ -96,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Smallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.Smallest" />
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.Merge" />
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="smallarge" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MoveZeroTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +121,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="remote" />
-      <option name="MAIN_CLASS_NAME" value="remote.smallarge" />
+      <option name="MAIN_CLASS_NAME" value="remote.MoveZeroTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -126,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="smallarge.Test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MoveZeroTest.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="remote" />
-      <option name="MAIN_CLASS_NAME" value="remote.smallarge" />
-      <option name="METHOD_NAME" value="Test2" />
+      <option name="MAIN_CLASS_NAME" value="remote.MoveZeroTest" />
+      <option name="METHOD_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Merge" />
+        <item itemvalue="TestNG.MoveZeroTest" />
+        <item itemvalue="TestNG.MoveZeroTest.Test1" />
         <item itemvalue="Application.DRotate" />
         <item itemvalue="Application.Duplicate" />
-        <item itemvalue="TestNG.smallarge" />
-        <item itemvalue="TestNG.smallarge.Test2" />
-        <item itemvalue="Application.Smallest" />
       </list>
     </recent_temporary>
   </component>
