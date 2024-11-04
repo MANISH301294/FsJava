@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="idea">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_24,_12_54 am_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_24__12_54am__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +53,7 @@
     "Application.Duplicate.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.Merge.executor": "Run",
+    "Application.Missing.executor": "Run",
     "Application.Smallest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -64,7 +67,7 @@
     "TestNG.SumOfArrayTest.test.executor": "Run",
     "TestNG.smallarge.Test2.executor": "Run",
     "TestNG.smallarge.executor": "Run",
-    "git-widget-placeholder": "DSA",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/manishrastogi/Documents/FsJava/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
@@ -72,7 +75,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Merge">
+  <component name="RunManager" selected="Application.Missing">
     <configuration name="DRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="remote.DRotate" />
       <module name="FsJava" />
@@ -86,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.Duplicate" />
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.Merge" />
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.Merge" />
+    <configuration name="Missing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.Missing" />
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Missing" />
         <item itemvalue="Application.Merge" />
         <item itemvalue="TestNG.MoveZeroTest" />
         <item itemvalue="TestNG.MoveZeroTest.Test1" />
         <item itemvalue="Application.DRotate" />
-        <item itemvalue="Application.Duplicate" />
       </list>
     </recent_temporary>
   </component>
