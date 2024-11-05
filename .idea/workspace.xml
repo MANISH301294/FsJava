@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="idea">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_24,_12_54 am_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_24__12_54am__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +47,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Consecutive.executor": "Run",
     "Application.DRotate.executor": "Run",
     "Application.Duplicate.executor": "Run",
+    "Application.FindOne.executor": "Run",
+    "Application.LongestSubArray.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.Merge.executor": "Run",
     "Application.Missing.executor": "Run",
@@ -67,7 +68,7 @@
     "TestNG.SumOfArrayTest.test.executor": "Run",
     "TestNG.smallarge.Test2.executor": "Run",
     "TestNG.smallarge.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "new",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/manishrastogi/Documents/FsJava/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
@@ -75,9 +76,35 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Missing">
-    <configuration name="DRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.DRotate" />
+  <component name="RunManager" selected="Application.LongestSubArray">
+    <configuration name="Consecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.Consecutive" />
+      <module name="FsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.FindOne" />
+      <module name="FsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.LongestSubArray" />
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -115,48 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FsJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="remote.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="remote" />
-      <option name="MAIN_CLASS_NAME" value="remote.MoveZeroTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveZeroTest.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FsJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="remote.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="remote" />
-      <option name="MAIN_CLASS_NAME" value="remote.MoveZeroTest" />
-      <option name="METHOD_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubArray" />
+        <item itemvalue="Application.FindOne" />
+        <item itemvalue="Application.Consecutive" />
         <item itemvalue="Application.Missing" />
         <item itemvalue="Application.Merge" />
-        <item itemvalue="TestNG.MoveZeroTest" />
-        <item itemvalue="TestNG.MoveZeroTest.Test1" />
-        <item itemvalue="Application.DRotate" />
       </list>
     </recent_temporary>
   </component>
