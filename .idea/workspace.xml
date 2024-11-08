@@ -57,6 +57,7 @@
     "Application.Merge.executor": "Run",
     "Application.Missing.executor": "Run",
     "Application.Smallest.executor": "Run",
+    "Application.Twosum.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AddTest.test1.executor": "Run",
@@ -77,7 +78,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GetlongSub">
+  <component name="RunManager" selected="Application.Twosum">
     <configuration name="Consecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="remote.Consecutive" />
       <module name="FsJava" />
@@ -130,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Missing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.Missing" />
+    <configuration name="Twosum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.Twosum" />
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Twosum" />
         <item itemvalue="Application.GetlongSub" />
         <item itemvalue="Application.LongestSubArray" />
         <item itemvalue="Application.FindOne" />
         <item itemvalue="Application.Consecutive" />
-        <item itemvalue="Application.Missing" />
       </list>
     </recent_temporary>
   </component>
