@@ -54,6 +54,8 @@
     "Application.GetlongSub.executor": "Debug",
     "Application.LongestSubArray.executor": "Run",
     "Application.Main.executor": "Debug",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MaxSubArray.executor": "Run",
     "Application.Merge.executor": "Run",
     "Application.Missing.executor": "Run",
     "Application.Smallest.executor": "Run",
@@ -79,20 +81,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SortZero">
-    <configuration name="FindOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.FindOne" />
-      <module name="FsJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="remote.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxSubArray">
     <configuration name="GetlongSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="remote.GetlongSub" />
       <module name="FsJava" />
@@ -106,8 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.LongestSubArray" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.MajorityElement" />
+      <module name="FsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.MaxSubArray" />
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArray" />
+        <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.SortZero" />
         <item itemvalue="Application.Twosum" />
         <item itemvalue="Application.GetlongSub" />
-        <item itemvalue="Application.LongestSubArray" />
-        <item itemvalue="Application.FindOne" />
       </list>
     </recent_temporary>
   </component>
