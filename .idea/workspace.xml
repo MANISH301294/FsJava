@@ -55,6 +55,7 @@
     "Application.LongestSubArray.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.MajorityElement.executor": "Run",
+    "Application.MaxArrayInSubArray.executor": "Run",
     "Application.MaxSubArray.executor": "Run",
     "Application.Merge.executor": "Run",
     "Application.Missing.executor": "Run",
@@ -81,9 +82,9 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxSubArray">
-    <configuration name="GetlongSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.GetlongSub" />
+  <component name="RunManager" selected="Application.MaxArrayInSubArray">
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.MajorityElement" />
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.MajorityElement" />
+    <configuration name="MaxArrayInSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.MaxArrayInSubArray" />
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxArrayInSubArray" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.SortZero" />
         <item itemvalue="Application.Twosum" />
-        <item itemvalue="Application.GetlongSub" />
       </list>
     </recent_temporary>
   </component>
