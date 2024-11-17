@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="idea">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f1c76c18-9242-4881-81d8-146f4ac0ef35" name="Changes" comment="idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +59,7 @@
     "Application.Missing.executor": "Run",
     "Application.Smallest.executor": "Run",
     "Application.SortZero.executor": "Debug",
+    "Application.StocksBuy.executor": "Run",
     "Application.Twosum.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -82,7 +81,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxArrayInSubArray">
+  <component name="RunManager" selected="Application.StocksBuy">
     <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="remote.MajorityElement" />
       <module name="FsJava" />
@@ -135,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Twosum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remote.Twosum" />
+    <configuration name="StocksBuy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remote.StocksBuy" />
       <module name="FsJava" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StocksBuy" />
         <item itemvalue="Application.MaxArrayInSubArray" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.SortZero" />
-        <item itemvalue="Application.Twosum" />
       </list>
     </recent_temporary>
   </component>
